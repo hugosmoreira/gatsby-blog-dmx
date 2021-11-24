@@ -20,23 +20,23 @@ const IndexPage = ({data}) => {
 
 export const query = graphql`
   {
-    allMdx(limit: 3, sort: {fields: frontmatter___date, order: DESC}) {
+    allMdx(limit: 3, sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
-        id
+        excerpt
         frontmatter {
           title
           author
           category
           date(formatString: "MMMM, Do YYYY")
-          readTime
           slug
+          readTime
           image {
-            childrenImageSharp {
+            childImageSharp {
               gatsbyImageData
             }
           }
         }
-        excerpt
+        id
       }
     }
   }
