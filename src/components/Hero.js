@@ -7,7 +7,7 @@ const Hero = ({ showPerson }) => {
     <header className="hero">
       {showPerson && (
         <StaticImage
-          src="../assets/person.png"
+          src="../assets/hacker.svg"
           placeholder="blurred"
           className="hero-person"
           alt="person typing"
