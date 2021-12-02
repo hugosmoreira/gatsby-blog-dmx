@@ -255,7 +255,7 @@ Navbar
     color: var(--clr-black);
     font-weight: 500;
     letter-spacing: var(--spacing);
-    font-size: 1rem;
+    font-size: 1.25rem;
     transition: var(--transition);
     font-family: var(--ff-secondary);
     cursor: pointer;

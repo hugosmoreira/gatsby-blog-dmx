@@ -17,8 +17,9 @@ const About = () => {
         className="img"
       />
       <p>
-        Hugo Moreira
-        Web Developer & Security Researcher based in Portland - OR.  
+        CodeSec Blog
+        <br />
+        Code & Cybersecurity  
         
       </p>
       <SocialLinks styleClass="banner-icons"></SocialLinks>

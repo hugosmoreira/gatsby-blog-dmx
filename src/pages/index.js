@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 
 const IndexPage = ({ data }) => {
   const {
@@ -10,6 +11,7 @@ const IndexPage = ({ data }) => {
   } = data
   return (
     <Layout>
+      <SEO title="CodeSec Blog | Home" description="This is the Home Page"/>
       <Hero showPerson />
       <Posts posts={posts} title="recently published" />
     </Layout>
