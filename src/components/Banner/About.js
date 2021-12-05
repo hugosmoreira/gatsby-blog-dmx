@@ -36,6 +36,7 @@ const Wrapper = styled.div`
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 1rem;
+    
   }
 `
 export default About
