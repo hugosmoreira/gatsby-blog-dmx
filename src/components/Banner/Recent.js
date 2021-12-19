@@ -61,6 +61,7 @@ const Wrapper = styled.div`
     grid-template-columns: 75px 1fr;
     column-gap: 1rem;
     margin-bottom: 1rem;
+    
   }
   .img {
     border-radius: var(--radius);

@@ -40,7 +40,7 @@ Variables
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 1170px;
+  --max-width: 1500px;
   --fixed-width: 700px;
 }
 /*
@@ -399,6 +399,7 @@ Posts Component
 .posts {
   width: 85vw;
   max-width: var(--max-width);
+  justify-content: space-between;
   margin: 0 auto;
   margin-bottom: 4rem;
 }

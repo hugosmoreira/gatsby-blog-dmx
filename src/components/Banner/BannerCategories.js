@@ -20,6 +20,7 @@ const Wrapper = styled.div`
     letter-spacing: var(--spacing);
     transition: var(--transition);
     border-radius: var(--radius);
+    
   }
   .category:hover {
     background: var(--clr-grey-10);

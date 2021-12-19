@@ -32,13 +32,18 @@ const Post = ({ excerpt, frontmatter }) => {
 
 const Wrapper = styled.article`
   margin-bottom: 3rem;
+  
   .info {
     text-align: center;
+    margin-right: 3rem;
+    
   }
   .img {
     margin-bottom: 1rem;
     border-radius: var(--radius);
     height: 17rem;
+    
+    
   }
   .category {
     display: inline-block;
@@ -50,6 +55,8 @@ const Wrapper = styled.article`
     border-radius: var(--radius);
     letter-spacing: var(--spacing);
     color: var(--clr-grey-5);
+    
+   
   }
   h3 {
     font-weight: 400;
@@ -92,6 +99,7 @@ const Wrapper = styled.article`
     align-items: center;
     justify-content: space-between;
     color: var(--clr-grey-5);
+    
 
     & .date {
       display: flex;
