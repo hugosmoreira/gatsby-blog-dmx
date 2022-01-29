@@ -654,3 +654,7 @@ Footer
   text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+
+.img-vpn-ghost {
+  width: '10px';
+}
